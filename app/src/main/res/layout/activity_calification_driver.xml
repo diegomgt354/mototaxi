@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.client.CalificationDriverActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VIAJE FINALIZADO"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="20dp"></TextView>
+
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:lottie_imageAssetsFolder="assets"
+            app:lottie_fileName="check.json"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="false"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"></com.airbnb.lottie.LottieAnimationView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desde"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/textViewOriginCalificationDriver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Direccion"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasta"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/textViewDestinationCalificationDriver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Direccion"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio del viaje"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="20dp"></TextView>
+
+        <TextView
+            android:id="@+id/textViewPriceCalificationDriver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:layout_marginTop="5dp"></TextView>
+
+        <RatingBar
+            android:id="@+id/ratingbarCalificationDriver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"></RatingBar>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCalificationDriver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/boton_redondeado"
+        android:text="CALIFICAR CONDUCTOR"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"></Button>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

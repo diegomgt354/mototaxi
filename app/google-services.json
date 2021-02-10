@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "137722645517",
+    "project_id": "proyectodiegomgt",
+    "storage_bucket": "proyectodiegomgt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137722645517:android:7621d455a35856a8795944",
+        "android_client_info": {
+          "package_name": "com.idat.mototaxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137722645517-8b3ralohkffpt609qacdmjd8tkiislv5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.idat.mototaxi",
+            "certificate_hash": "241f2b3794311557b4970a38a5d4900c74f5fd9a"
+          }
+        },
+        {
+          "client_id": "137722645517-1qd0amch29j89jbbn0imge6c1qb8uok7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN7Uk8TAceFvWqSbVF83JH5rsp6yVeOrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137722645517-1qd0amch29j89jbbn0imge6c1qb8uok7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
